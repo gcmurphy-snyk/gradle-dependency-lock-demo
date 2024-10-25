@@ -21,6 +21,10 @@ allprojects {
 
 }
 
+dependencies {
+    customLib('com.fasterxml.jackson.core:jackson-databind:2.13.4.2')
+}
+
 tasks.register('resolveAndLockAll') {
     notCompatibleWithConfigurationCache("Filters configurations at execution time")
     doLast {
