@@ -1,3 +1,6 @@
+# This is a Gradle generated file for dependency locking.
+# Manual edits can break the build and are not advised.
+# This file is expected to be part of source control.
 com.fasterxml.jackson.core:jackson-annotations:2.13.4=customLib
 com.fasterxml.jackson.core:jackson-core:2.13.4=customLib
 com.fasterxml.jackson.core:jackson-databind:2.13.4.2=customLib
@@ -7,5 +10,5 @@ org.apache.httpcomponents:httpclient:4.5.14=customLib
 org.apache.httpcomponents:httpcore:4.4.16=customLib
 org.slf4j:slf4j-api:1.7.36=customLib
 org.springframework.boot:spring-boot-dependencies:2.7.8=customLib
-org.yaml:snakeyaml:2.3=customLib
+org.yaml:snakeyaml:1.30=customLib
 empty=

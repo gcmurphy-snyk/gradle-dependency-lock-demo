@@ -16,7 +16,7 @@ allprojects {
 
     dependencyLocking {
         lockAllConfigurations()
-        lockFile.set(new File(rootProject.projectDir, "${name}.lockfile"))
+        lockFile.set(new File(project.projectDir, "gradle.lockfile"))
     }
 
 }
